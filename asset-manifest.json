@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Starlader/static/css/main.9208e151.chunk.css",
+    "main.js": "/Starlader/static/js/main.d6e53300.chunk.js",
+    "main.js.map": "/Starlader/static/js/main.d6e53300.chunk.js.map",
+    "runtime-main.js": "/Starlader/static/js/runtime-main.2b43a881.js",
+    "runtime-main.js.map": "/Starlader/static/js/runtime-main.2b43a881.js.map",
+    "static/css/2.06b7ea63.chunk.css": "/Starlader/static/css/2.06b7ea63.chunk.css",
+    "static/js/2.a03fd3b3.chunk.js": "/Starlader/static/js/2.a03fd3b3.chunk.js",
+    "static/js/2.a03fd3b3.chunk.js.map": "/Starlader/static/js/2.a03fd3b3.chunk.js.map",
+    "index.html": "/Starlader/index.html",
+    "precache-manifest.d37e092a9c3f478f2ad80eca28356309.js": "/Starlader/precache-manifest.d37e092a9c3f478f2ad80eca28356309.js",
+    "service-worker.js": "/Starlader/service-worker.js",
+    "static/css/2.06b7ea63.chunk.css.map": "/Starlader/static/css/2.06b7ea63.chunk.css.map",
+    "static/css/main.9208e151.chunk.css.map": "/Starlader/static/css/main.9208e151.chunk.css.map",
+    "static/media/frame.module.css": "/Starlader/static/media/bg.cf58c42f.png",
+    "static/media/logoB.png": "/Starlader/static/media/logoB.fe7e96d2.png",
+    "static/media/star_nA.png": "/Starlader/static/media/star_nA.d4875dd4.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2b43a881.js",
+    "static/css/2.06b7ea63.chunk.css",
+    "static/js/2.a03fd3b3.chunk.js",
+    "static/css/main.9208e151.chunk.css",
+    "static/js/main.d6e53300.chunk.js"
+  ]
+}
