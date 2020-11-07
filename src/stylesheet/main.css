@@ -1,0 +1,42 @@
+@import './reset.css';
+
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #fafafa;
+  
+}
+
+  
+img {
+    display: block;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 115%;
+  color: #fff;
+  margin-bottom: 50px;
+}
+
+
+button:hover {
+  cursor: pointer;
+}
+
+
+p, span {
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.01em;
+}

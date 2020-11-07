@@ -1,0 +1,272 @@
+.results {
+    max-width: 1440px;
+    margin: 0 auto 90px;
+}
+
+
+.results__title {
+    font-size: 32px;
+    line-height: 45px;
+    color: #282830;
+    margin-bottom: 40px;
+}
+
+.results__tabs {
+    border-top: 2px solid #EC3E5A;
+}
+
+.matches__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.matches__item {
+    width: 336px;
+    height: 360px;
+    position: relative;
+    padding: 25px;
+    position: relative;
+    border-radius: 2px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);}
+
+.matches__item:hover {
+    border: 1px solid #FF5E5E;
+    cursor: pointer;
+}
+
+.star {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 182px;
+    height: 164px;
+    z-index: 3;
+}
+
+.matches__live {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 4;
+}
+
+
+.matches__play {
+    position: absolute;
+    top: 25px;
+    right: 30px;
+}
+
+
+.matches__text {
+    color: #757C84;
+    margin-bottom: 120px;
+}
+
+.matches__time {
+    position: absolute;
+    width: 85px;
+    top: 69px;
+    right: 24px;
+    font-weight: normal;
+    text-align: center;
+    color: #fff;
+}
+
+.matches__dateTime {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 35px;
+    color: #282830;
+}
+
+.matches__date {
+    position: absolute;
+    top: 60px;
+    right: 25px;
+    font-weight: normal;
+    color: #757C84;
+}
+
+.matches__teams {
+    display: flex;
+    max-width: 115px;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.matches_star {
+    width: 100%;
+}
+
+.matches__bets {
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.matches__teamName {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 35px;
+    color: #282830;
+}
+
+.matches__coefficient {
+    color: #282830;
+    letter-spacing: 0.02em;
+    font-weight: bold;
+    background: #FAFAFA;
+    border: 1px solid rgba(151, 151, 151, 0.1);
+    padding: 2px 15px 2px 15px;
+    width: 60px;
+    height: 24px;
+}
+
+.matches__ggbet {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.matches__bo {
+    width: 200px;
+    color: #757C84;
+    font-weight: normal;
+}
+
+.ggbet {
+    width: 62px;
+    height: 15px;
+}
+
+
+/* =========BATTLE=========== */
+.battle__P {
+    margin-bottom: 15px;
+    padding-top: 20px;
+}
+
+.battle__match {
+    position: absolute;
+    width: 105px;
+    height: 40px;
+    background: #F0F0F0;
+    border-radius: 4px;
+    bottom: 70px;
+    right: 24px;
+    padding: 10px;
+}
+
+.battle_matchText {
+    font-weight: bold;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #757C84;
+}
+
+.battle__map {
+    color: #757C84;
+    font-weight: normal;
+    margin-top: 10px;
+}
+
+
+/* ===================MEDIA=================== */
+
+
+@media (max-width: 1455px) {
+    .results {
+        max-width: 1000px;
+        margin-bottom: 60px;
+        padding: 20px;
+    }
+
+    .matches__list {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .matches__item {
+        margin-bottom: 30px;
+    }
+}
+
+
+@media (max-width: 740px) {
+    .results {
+        max-width: 414px;
+        padding: 20px;
+    }
+
+    .matches__list {
+        margin: 0 auto;
+    }
+
+    .matches__item {
+        max-width: 374px;
+        height: 225px;
+        padding: 15px;
+    }
+
+    .matches__ggbet {
+        margin-top: 5px;
+    }
+
+    .matches__text {
+        margin-bottom: 30px;
+    }
+
+    .matches__teamImg {
+        width: 40px;
+        height: 40px;
+    }
+
+    .matches__bets {
+        margin-bottom: 0px;
+    }
+
+    .star {
+        width: 155px;
+    }
+
+    .matches__play {
+        width: 25px;
+        top: 15px;
+        right: 25px;
+    }
+
+    .matches__time {
+        width: 45px;
+        top: 45px;
+        right: 15px;
+        line-height: 15px;
+    }
+
+    .matches__dateTime {
+        top: 5px;
+    }
+
+    .matches__date {
+        top: 40px;
+        right: 18px;
+    }
+
+    .battle__P {
+        margin-bottom: 10px;
+    }
+
+    .battle__match {
+        top: 140px;
+    }
+
+    .battle__map {
+        margin-top: 5px;
+    }
+}
+
