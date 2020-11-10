@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a38be9819ebe5e6982ac992597a6d506",
+    "revision": "1c7eabdd665643190df35972e2f56b25",
     "url": "/Starlader/index.html"
   },
   {
@@ -8,15 +8,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Starlader/static/css/2.06b7ea63.chunk.css"
   },
   {
-    "revision": "88aead6a73bf563eb757",
-    "url": "/Starlader/static/css/main.35984745.chunk.css"
+    "revision": "8f00ee4c2554a0f35b1d",
+    "url": "/Starlader/static/css/main.036e24d0.chunk.css"
   },
   {
     "revision": "f3a641cfb4dc2b6ace21",
     "url": "/Starlader/static/js/2.a03fd3b3.chunk.js"
   },
   {
-    "revision": "88aead6a73bf563eb757",
+    "revision": "8f00ee4c2554a0f35b1d",
     "url": "/Starlader/static/js/main.d6e53300.chunk.js"
   },
   {
